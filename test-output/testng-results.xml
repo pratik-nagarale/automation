@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="63" started-at="2019-04-22T16:42:21Z" finished-at="2019-04-22T16:42:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="63" started-at="2019-04-22T16:42:21Z" finished-at="2019-04-22T16:42:21Z">
+      <class name="com.test.cases.TestCase1">
+        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:com.test.cases.TestCase1@107ec20]" name="testCaseOne" duration-ms="17" started-at="2019-04-22T22:12:21Z" finished-at="2019-04-22T22:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseOne -->
+      </class> <!-- com.test.cases.TestCase1 -->
+      <class name="com.test.cases.TestCase2">
+        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:com.test.cases.TestCase2@864e92]" name="testCaseTwo" duration-ms="2" started-at="2019-04-22T22:12:21Z" finished-at="2019-04-22T22:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo -->
+        <test-method status="PASS" signature="testCaseTwo2()[pri:0, instance:com.test.cases.TestCase2@864e92]" name="testCaseTwo2" duration-ms="2" started-at="2019-04-22T22:12:21Z" depends-on-methods="com.test.cases.TestCase2.testCaseTwo" finished-at="2019-04-22T22:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseTwo2 -->
+      </class> <!-- com.test.cases.TestCase2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
