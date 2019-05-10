@@ -33,5 +33,15 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/Project/jars/Apache POI/poi-scratchpad-3.10-FINAL-20140208.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
