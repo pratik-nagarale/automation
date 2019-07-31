@@ -1,23 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63" started-at="2019-04-22T16:42:21Z" finished-at="2019-04-22T16:42:21Z">
+  <suite name="Suite" duration-ms="2235" started-at="2019-07-30T19:02:34Z" finished-at="2019-07-30T19:02:37Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="63" started-at="2019-04-22T16:42:21Z" finished-at="2019-04-22T16:42:21Z">
+    <test name="Test" duration-ms="2235" started-at="2019-07-30T19:02:34Z" finished-at="2019-07-30T19:02:37Z">
       <class name="com.test.cases.TestCase1">
-        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:com.test.cases.TestCase1@107ec20]" name="testCaseOne" duration-ms="17" started-at="2019-04-22T22:12:21Z" finished-at="2019-04-22T22:12:21Z">
+        <test-method status="PASS" signature="testCaseOne()[pri:1, instance:com.test.cases.TestCase1@10ee7cb]" name="testCaseOne" duration-ms="20" started-at="2019-07-31T00:32:34Z" finished-at="2019-07-31T00:32:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseOne -->
+        <test-method status="FAIL" signature="readExcel()[pri:2, instance:com.test.cases.TestCase1@10ee7cb]" name="readExcel" duration-ms="2166" started-at="2019-07-31T00:32:34Z" finished-at="2019-07-31T00:32:37Z">
+          <exception class="java.util.NoSuchElementException">
+            <full-stacktrace>
+              <![CDATA[java.util.NoSuchElementException
+	at java.util.TreeMap$PrivateEntryIterator.nextEntry(Unknown Source)
+	at java.util.TreeMap$ValueIterator.next(Unknown Source)
+	at com.test.cases.TestCase1.readExcel(TestCase1.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.util.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcel -->
       </class> <!-- com.test.cases.TestCase1 -->
       <class name="com.test.cases.TestCase2">
-        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:com.test.cases.TestCase2@864e92]" name="testCaseTwo" duration-ms="2" started-at="2019-04-22T22:12:21Z" finished-at="2019-04-22T22:12:21Z">
+        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:com.test.cases.TestCase2@1c36524]" name="testCaseTwo" duration-ms="2" started-at="2019-07-31T00:32:37Z" finished-at="2019-07-31T00:32:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseTwo -->
-        <test-method status="PASS" signature="testCaseTwo2()[pri:0, instance:com.test.cases.TestCase2@864e92]" name="testCaseTwo2" duration-ms="2" started-at="2019-04-22T22:12:21Z" depends-on-methods="com.test.cases.TestCase2.testCaseTwo" finished-at="2019-04-22T22:12:21Z">
+        <test-method status="PASS" signature="testCaseTwo2()[pri:0, instance:com.test.cases.TestCase2@1c36524]" name="testCaseTwo2" duration-ms="1" started-at="2019-07-31T00:32:37Z" depends-on-methods="com.test.cases.TestCase2.testCaseTwo" finished-at="2019-07-31T00:32:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseTwo2 -->

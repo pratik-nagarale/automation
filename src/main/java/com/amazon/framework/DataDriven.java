@@ -1,4 +1,4 @@
-package com.test.cases;
+package com.amazon.framework;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -8,34 +8,13 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
-import com.page.objects.WrapperClass;
 
-public class TestCase1 extends WrapperClass {
-
+public class DataDriven  {
 	
-	@Test(priority=1)
-	public void testCaseOne() {
-
-		System.out.println("Hello TestNG Framework");
-
-	}
-
-	
-	
-	
-	/*@AfterTest
-	public void afterTest() {
-		
-		System.out.println("After");
-
-	}*/
-
-	
-	@Test(priority=2)
-	public void readExcel() throws IOException {
+	@Test
+	public void readExcel() throws IOException{
 	FileInputStream filepath = new FileInputStream("E://Project//ProjectLearning//amazon_test//src//test//resources//TestData.xlsx");
 	XSSFWorkbook workbook = new XSSFWorkbook(filepath);
 	
@@ -72,5 +51,4 @@ public class TestCase1 extends WrapperClass {
 	  }
 	
 	}
-
 }
